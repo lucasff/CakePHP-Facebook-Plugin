@@ -1,5 +1,5 @@
 {
-	"name": "webtechnick/cakephp-facebook-plugin",
+	"name": "lucasff/cakephp-facebook-plugin",
 	"description": "CakePHP Facebook Plugin",
 	"type": "cakephp-plugin",
 	"keywords": ["cakephp", "facebook", "auth", "connect"],
@@ -16,6 +16,9 @@
 			"homepage": "http://facebook.webtechnick.com"
 		}
 	],
+	"replace": {
+                 "webtechnick/cakephp-facebook-plugin": "dev-master"
+        },
 	"support": {
 		"issues": "https://github.com/webtechnick/CakePHP-Facebook-Plugin/issues",
 		"irc": "irc://irc.freenode.org/cakephp",
